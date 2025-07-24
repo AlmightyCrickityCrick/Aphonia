@@ -1,19 +1,18 @@
 ﻿
-define e = Character("Eileen")
-
-## Incercaregit
-
+define lira = Character("Lira", color = "#fff")
+image lira = im.FactorScale("lira.png",0.4)
+image argon = im.Scale("bg_argon.png",1920,1080)
 
 label start:
 
-    scene bg room
+    scene argon
 
-    show eileen happy
+    show lira at Position(xpos = 500, ypos = 1050)
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    lira "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    lira "Once you add a story, pictures, and music, you can release it to the world!"
 
     return
