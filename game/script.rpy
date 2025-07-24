@@ -12,17 +12,18 @@ image center = im.Scale("bg_center.png",1920,1080)
 image argon = im.Scale("bg_argon.png",1920,1080)
 image virelia = im.Scale("bg_virelia.png",1920,1080)
 image noctice = im.Scale("bg_noctice.png",1920,1080)
+image room = im.Scale("bg_room.png",1920,1080)
 
 label start:
 
-    scene argon
+    scene room
 
     show lira at Position(xpos = 500, ypos = 1050)
 
-    # show kael at Position(xpos = 1200, ypos = 980)
+    show kael at Position(xpos = 1200, ypos = 980)
 
 
-    show darin at Position(xpos = 1200, ypos = 990)
+    show darin at Position(xpos = 780, ypos = 990)
 
     # These display lines of dialogue.
 
