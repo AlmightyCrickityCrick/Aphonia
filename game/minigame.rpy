@@ -2,8 +2,6 @@ default is_game_over = False
 default is_win = False
 default nr_wins = 0
 
-define gui.text_color = '#402000'
-
 init python:
     import pygame
 
