@@ -9,8 +9,8 @@ define darin = Character("Darin", color = "#ffff")
 define james = Character("James", color = "#fff")
 
 image lira = im.FactorScale("lira.png",0.4)
-image kael = im.FactorScale("kael.png",0.4)
-image darin = im.FactorScale("darin.png", 0.35)
+image kael = im.FactorScale("kael.png",0.42)
+image darin = im.FactorScale("darin.png", 1.7)
 image james = im.FactorScale("james.png",0.34)
 
 image center = im.Scale("bg_center.png",1920,1080)
@@ -20,6 +20,7 @@ image noctis = im.Scale("bg_noctis.png",1920,1080)
 image room = im.Scale("bg_room.png",1920,1080)
 image catastrophe = im.FactorScale("bg_catastrophe.png",1.25)
 image darkness = im.Scale("bg_darkness.png",1920,1080)
+image hall_kid = im.Scale("bg_lira_kid.png",1920,1080)
 
 label start:
     jump prologue

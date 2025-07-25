@@ -28,7 +28,66 @@ label prologue:
     "It began as a whisper. {w}A subtle resonance in the walls. {w}At first, the engineers thought it was structural fatigue." 
     "Then the voices started—fragments of words, static laughter in the ventilation, the sound of footsteps behind closed doors. {w}Entire districts fell into madness."
 
-    "No enemy to shoot. No gas to clear. Just sound. Or the absence of it."
+    "No enemy to shoot. {w}No gas to clear. {w}Just sound. {w}Or the absence of it."
 
-    "Aphony grew—not like a virus, but like an echo. A field of invisible distortion, resonating through the metal bones of Arca. Some heard music. Others, screams. Some simply vanished." 
-    "But all who stayed long enough felt it: the crumbling of the mind. The silence that wasn’t empty. The noise that didn’t belong."
+    "Aphony grew—not like a virus, but like an echo. {w}A field of invisible distortion, resonating through the metal bones of Arca. {w}Some heard music. {w}Others, screams. {w}Some simply vanished." 
+    "But all who stayed long enough felt it: the crumbling of the mind. {w}The silence that wasn’t empty. {w}The noise that didn’t belong."
+
+    scene bg_lira_kid with Dissolve(3.0)
+
+    "People were trapped in their sectors when it began."
+
+    # bg people loosing their families
+
+    "Automated lockdowns sealed families apart. {w}Parents clawed at steel doors while their children cried behind unbreakable steel. {w}Some wrote messages on walls with trembling hands:"
+    "\"It’s not my voice.\" {w}\"I heard her again.\" {w}\"They’re inside now.\""
+
+    "And the worst part? {w}There was no way out. {w}Only deeper in."
+
+    # bg silhouettes
+
+    "Among those still breathing, a task force was formed—not soldiers, not heroes, just those who hadn’t yet broken. {w}Their job: investigate, contain, and cleanse the infected zones. {w}Sector by sector."
+    "Day by day. {w}Until the sound stopped—or until they did."
+
+    show james at Position(xpos = 900, ypos = 980) with fade
+
+    "One of the leader of such teams, James, lost his parents in the first collapse. {w}Since then, every order he gave felt like a knife turned inward. {w}But he never let it show."
+
+    hide james
+    
+    show darin at Position(xpos = 910, ypos = 1070) with fade
+
+    "Darin was once a systems technician. {w}A father. {w}He used to write bedtime stories for his daughter, crafting dreams out of dying machines. {w}But she was lost in Sector C-9—sealed off before he could reach her."
+    "Now he cracks bitter jokes like armor, laughs too loudly, and hears her voice at night, calling from vents that should be dead."
+
+    hide darin
+
+    show lira at Position(xpos = 900, ypos = 1050) with fade
+
+
+    "Lira was the team’s informant. {w}Quiet. {w}Observant. {w}A girl who grew up in the infected zones. {w}She learned early to listen to what others ignored."
+    "She carries a small notebook, scrawled with every mission, every detail, every fear. {w}Some pages she doesn’t remember writing."
+
+    hide lira
+
+    show kael at Position(xpos = 900, ypos = 980) with fade
+
+    "And Kael… Kael was a soldier. {w}One of the last to wear an official uniform."
+    "He ordered his unit into an irradiated corridor once—knowing they wouldn’t come back—just to keep the civilians alive. {w}He saved a hundred souls. {w}And lost himself in the process."
+
+    hide kael
+
+    # show all of them
+
+    "Now they stand together. {w}Four people with scars deeper than any wound. {w}Cleanse what can be cleansed. {w}Return if you survive."
+    "But the truth is never that simple."
+
+    # hide all of them
+
+    # bg black
+
+    "Because not all echoes fade."
+    "Some speak back."
+
+
+
