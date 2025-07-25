@@ -31,6 +31,6 @@ label start:
 
     # These display lines of dialogue.
 
-    lira "Дальше бога нет."
+    lira "Пупупу"
 
     return
