@@ -41,6 +41,8 @@ image black = im.Scale("bg_black.jpg",1920,1080)
 default lira_affection = 3
 
 label start:
+    jump base
+
     jump prologue
 
     # call minigame
