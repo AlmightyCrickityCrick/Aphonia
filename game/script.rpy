@@ -1,5 +1,7 @@
 ﻿define gui.text_font = "SourceSansPro-Regular.ttf"
 
+# Test comment
+
 # Characters
 
 define lira = Character("Lira", color = "#fff")
@@ -11,7 +13,7 @@ define dealer = Character("Dealer", color = "#fff")
 # Default character
 
 image lira = im.FactorScale("lira.png",0.4)
-image kael = im.FactorScale("kael.png",0.42)
+image kael = im.FactorScale("kael.png",0.47)
 image darin = im.FactorScale("darin.png", 1.7)
 image james = im.FactorScale("james.png",0.34)
 image dealer = im.FactorScale("dealer.png",1.0)
@@ -19,6 +21,8 @@ image dealer = im.FactorScale("dealer.png",1.0)
 # Another character poses
 
 image lira_as_kid = im.FactorScale("lira_kid.png",0.4)
+image darin_happy_food = im.FactorScale("darin_happy_food.png",1.7)
+image darin_food = im.FactorScale("darin_food.png",1.0)
 
 # Another characters
 
@@ -36,11 +40,14 @@ image catastrophe = im.FactorScale("bg_catastrophe.png",1.25)
 image darkness = im.Scale("bg_darkness.png",1920,1080)
 image hall_kid = im.Scale("bg_lira_kid.png",1920,1080)
 image black = im.Scale("bg_black.jpg",1920,1080)
+image bg_kitchen = im.Scale("kitchen.png",1920,1080)
+image bg_supply = im.Scale("supply.png",1920,1080)
 
 # Default values 
-default lira_affection = 3
+default lira_affection = 2
 
 label start:
+
     jump base
 
     jump prologue
@@ -49,7 +56,7 @@ label start:
 
     # show lira at Position(xpos = 500, ypos = 1050)
 
-    # show kael at Position(xpos = 1200, ypos = 980)
+    # show kael at Position(xpos = 900, ypos = 1100)
 
     # show james at Position(xpos = 1200, ypos = 980)
 
