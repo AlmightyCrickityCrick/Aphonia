@@ -33,18 +33,25 @@ label prologue:
     "Aphony grew—not like a virus, but like an echo. {w}A field of invisible distortion, resonating through the metal bones of Arca. {w}Some heard music. {w}Others, screams. {w}Some simply vanished." 
     "But all who stayed long enough felt it: the crumbling of the mind. {w}The silence that wasn’t empty. {w}The noise that didn’t belong."
 
-    scene bg_lira_kid with Dissolve(3.0)
+    scene hall_kid with Dissolve(3.0)
+
+    show lira_as_kid at Position(xpos = 950, ypos = 1250) with fade
 
     "People were trapped in their sectors when it began."
 
-    # bg people loosing their families
+    scene black with Dissolve(2.0)
 
     "Automated lockdowns sealed families apart. {w}Parents clawed at steel doors while their children cried behind unbreakable steel. {w}Some wrote messages on walls with trembling hands:"
+    
+    show families at Position(xpos = 550, ypos = 1100) with Dissolve(2.0)
+
+    show families_1 at Position(xpos = 1440, ypos = 1100) with Dissolve(2.0)
+    
     "\"It’s not my voice.\" {w}\"I heard her again.\" {w}\"They’re inside now.\""
 
     "And the worst part? {w}There was no way out. {w}Only deeper in."
 
-    # bg silhouettes
+    scene darkness with Dissolve(2.0)
 
     "Among those still breathing, a task force was formed—not soldiers, not heroes, just those who hadn’t yet broken. {w}Their job: investigate, contain, and cleanse the infected zones. {w}Sector by sector."
     "Day by day. {w}Until the sound stopped—or until they did."
@@ -77,14 +84,15 @@ label prologue:
 
     hide kael
 
-    # show all of them
+    show darin at Position(xpos = 400, ypos = 1070)
+    show kael at Position(xpos = 1550, ypos = 980)
+    show lira at Position(xpos = 800, ypos = 1050)
+    show james at Position(xpos = 1200, ypos = 980)
 
     "Now they stand together. {w}Four people with scars deeper than any wound. {w}Cleanse what can be cleansed. {w}Return if you survive."
     "But the truth is never that simple."
 
-    # hide all of them
-
-    # bg black
+    scene black with Dissolve(2.0)
 
     "Because not all echoes fade."
     "Some speak back."

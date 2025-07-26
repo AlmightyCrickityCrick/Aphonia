@@ -66,7 +66,7 @@ init python:
                 
                 if x1 <= x <= x2 and y1 <= y <= y2:
                     self.punct_oprire = self.indicator_position
-                    if self.punct_oprire > 105 and self.punct_oprire < 1061:
+                    if self.punct_oprire > 973 and self.punct_oprire < 1046:
                         self.is_win = True
                         globals() ['is_win'] = self.is_win
                         globals() ['nr_wins'] += 1
