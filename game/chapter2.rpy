@@ -11,5 +11,5 @@ label morning:
     # darin with food
 
     "In the makeshift kitchen, Darin was fiddling with a burner, wiping sweat from his forehead. {w}Something was bubbling in a tin can — too loudly for soup."
-
+    
     
