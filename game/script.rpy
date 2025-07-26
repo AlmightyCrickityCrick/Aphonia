@@ -42,6 +42,7 @@ image hall_kid = im.Scale("bg_lira_kid.png",1920,1080)
 image black = im.Scale("bg_black.jpg",1920,1080)
 image bg_kitchen = im.Scale("kitchen.png",1920,1080)
 image bg_supply = im.Scale("supply.png",1920,1080)
+image bg_tunnel = im.Scale("tunnel.png",1920,1080)
 
 # Default values 
 default lira_affection = 2
