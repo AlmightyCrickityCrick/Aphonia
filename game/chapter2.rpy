@@ -11,6 +11,7 @@ label morning:
     show darin_happy_food at Position(xpos = 500, ypos = 1100)
 
     "In the makeshift kitchen, Darin was fiddling with a burner, wiping sweat from his forehead. {w}Something was bubbling in a tin can — too loudly for soup."
+<<<<<<< HEAD
 
     darin "This... is either soup or corrosive acid. {w}Fifty-fifty. {w}Wanna gamble, Kael?"
 
@@ -20,4 +21,7 @@ label morning:
 
     kael "If it melts your tongue, we finally get some peace and quiet. {w}Do it."
 
+=======
+    
+>>>>>>> 3f857c0e565b74cefe7a1a70c5bfb75781ad5bac
     
